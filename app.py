@@ -30,6 +30,8 @@ title = """
     <h1 style="text-align: center;"> Doctor Appointment System </h1>
 """
 
+st.markdown(style, unsafe_allow_html=True)
+
 tab1,tab2,tab3,tab4 = st.tabs(["Appointment","Appointment details","Cancellation","Doctor details"])
 with tab1:
     c3,c4,c5 = st.columns([1,3,1])
