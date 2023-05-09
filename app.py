@@ -163,9 +163,9 @@ with tab3:
 
 with tab4:
 
-    image_1 = Image.open("D:\\NGK\\Doctor Appoinment System\\DOc_appointment-main\\doctor_1.jfif")
-    image_2 = Image.open("D:\\NGK\\Doctor Appoinment System\\DOc_appointment-main\\doctor_2.jfif")
-    image_3 = Image.open("D:\\NGK\\Doctor Appoinment System\\DOc_appointment-main\\doctor__3.jfif")
+    image_1 = Image.open("doctor_1.jfif")
+    image_2 = Image.open("doctor_2.jfif")
+    image_3 = Image.open("doctor__3.jfif")
     
     #resize_1 = image_1.resize(200,200)
 
