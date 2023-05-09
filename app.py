@@ -113,7 +113,7 @@ with tab1:
                     c.success("Appointment Successful")
 
 with tab2:
-    st.table(df.drop("Email",axis=1))
+    st.table(df.drop(["Email","DateTime"],axis=1))
     st.button("Refresh")
 
 with tab3:
