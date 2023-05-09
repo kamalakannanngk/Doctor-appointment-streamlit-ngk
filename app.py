@@ -131,7 +131,7 @@ with tab3:
         email_ = st.text_input("Enter your email")
 
         # Doctor
-        doctor_ = st.selectbox("Select Doctor", ["Dr. P.Arumugam", "Dr. R.Thangaraj", "Dr. P.Sivakumar"])
+        doctor_ = st.selectbox("Select Doctor", ["Dr. S. Sivakarthikeyan", "Dr. R.Thangaraj", "Dr. R.Pavithra"])
 
         col1,col2 = st.columns(2)
 
