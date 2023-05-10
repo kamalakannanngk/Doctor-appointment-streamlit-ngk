@@ -5,7 +5,7 @@ from datetime import datetime
 import os
 from PIL import Image
 
-st.set_theme('dark')
+#st.set_theme('dark')
 
 # Doctor appointment system
 st.set_page_config(page_title="Doctor Appointment System", page_icon=":hospital:", layout="wide")
